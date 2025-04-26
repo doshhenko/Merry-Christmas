@@ -1,0 +1,239 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #750E21;
+    min-height: 100vh;
+    background-image: url("https://images.pexels.com/photos/3149856/pexels-photo-3149856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+h1,.christmas{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 60px;
+    background-color: #F2EAD3;
+    border: 3px solid #750E21;
+    color: #3D0000;
+    padding: 7px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.christmas{
+    background: rgba(69, 9, 4, 0.7);
+    height: 220px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+    border: 2px solid #E4C59E;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3,h4{
+    color: #F1E4C3;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.days,.hours,.minutes,.seconds{
+    font-size: 45px;
+}
+
+button{
+    margin-left: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media all and (max-width: 1200px){
+    body{
+        background-size: cover;
+    }
+    h1{
+        font-size: 50px;
+    }
+    button{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .christmas{
+        margin-top: 300px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 900px){
+    h1{
+        font-size: 40px;
+    }
+
+    .christmas{
+        width: 160px;
+        height: 160px;
+    }
+
+    .days,.hours,.minutes,.seconds{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+}
+
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+
+    .christmas{
+        width: 150px;
+        height: 120px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .days,.hours,.minutes,.seconds{
+        font-size: 25px;
+    }
+    img{
+        width: 55px;
+        height: 55px;
+    }
+    button{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media all and (max-width: 540px){
+    .christmas{
+        margin-top: 200px;
+        width: 100px;
+        height: 140px;
+    }
+}
+
+@media all and (max-width: 500px){
+    body{
+        background-image: url("https://images.pexels.com/photos/3149894/pexels-photo-3149894.jpeg");
+        max-height: 500px;
+        }
+    
+    .christmas{
+        margin-top: 50px;
+        width: 140px;
+        height: 170px;
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .days,.hours,.minutes,.seconds{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 400px){
+    
+    body{
+    max-height: 400px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .christmas{
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .days,.hours,.minutes,.seconds{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width: 390px){
+
+    .christmas{
+        width: 110px;
+        height: 120px;
+    }
+}
+
+@media all and (max-width: 280px){
+
+    .christmas{
+        width: 80px;
+        height: 90px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    button{
+        width: 50px;
+        height: 50px;
+    }
+
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    .days,.hours,.minutes,.seconds{
+        margin-top: 10px;
+        font-size: 23px;
+    }
+}
